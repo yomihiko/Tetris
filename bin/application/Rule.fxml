@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="330.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="80.0" layoutY="14.0" text="あそびかた">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="65.0" text="←、→キー: 左右移動">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="68.0" layoutY="92.0" prefHeight="27.0" prefWidth="164.0" text="  ↓キー    :下に落とす">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="55.0" layoutY="119.0" prefHeight="27.0" prefWidth="190.0" text="Aキー : 回転(反時計回り)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="56.0" layoutY="146.0" prefHeight="27.0" prefWidth="190.0" text="Fキー : 回転(時計回り)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="80.0" layoutY="173.0" prefHeight="53.0" prefWidth="141.0" text="スコア">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="55.0" layoutY="219.0" prefHeight="27.0" prefWidth="190.0" text="まとめて消すほど高得点！">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="27.0" layoutY="246.0" text="時間経過でブロックが加速するほど">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="273.0" text="スコアの上がり幅が増えます">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

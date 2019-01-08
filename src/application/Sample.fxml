@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="512.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Canvas fx:id="canMain" height="460.0" layoutX="50.0" layoutY="50.0" width="260.0" />
+      <Button fx:id="btnStart" layoutX="184.0" layoutY="217.0" mnemonicParsing="false" onAction="#onBtnStart" prefHeight="53.0" prefWidth="145.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="スタート！">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="btnStop" layoutX="373.0" layoutY="368.0" mnemonicParsing="false" onAction="#onBtnStop" prefHeight="25.0" prefWidth="41.0" text="Stop" visible="false" />
+      <Canvas fx:id="nBlockcan" height="80.0" layoutX="350.0" layoutY="110.0" width="80.0" />
+      <Label fx:id="nextBlockLabel" layoutX="343.0" layoutY="80.0" text="Next Block" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="titleLabel" layoutX="184.0" layoutY="59.0" text="テトリス">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="373.0" layoutY="249.0" text="スコア" visible="false">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreNum" alignment="CENTER_RIGHT" layoutX="343.0" layoutY="304.0" prefHeight="34.0" prefWidth="135.0" visible="false">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="oneMoreBtn" layoutX="333.0" layoutY="110.0" mnemonicParsing="false" onAction="#onOneMore" prefHeight="53.0" prefWidth="145.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="もう一回" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="titleBtn" layoutX="333.0" layoutY="176.0" mnemonicParsing="false" onAction="#onTitle" prefHeight="53.0" prefWidth="145.0" style="-fx-background-color: #FF5722; -fx-text-fill: white;" text="タイトルへ" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="gameOverLabel" alignment="CENTER" layoutX="338.0" layoutY="66.0" prefHeight="30.0" prefWidth="135.0" text="ゲームオーバー！" visible="false">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="pRuleBtn" layoutX="184.0" layoutY="304.0" mnemonicParsing="false" onAction="#onRureBtn" prefHeight="53.0" prefWidth="145.0" style="-fx-background-color: #FF5722; -fx-text-fill: white;" text="あそびかた">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
